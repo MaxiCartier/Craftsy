@@ -1,8 +1,10 @@
 /* Header */
 .home__header {
+    width: 95%;
     margin: 10px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     background-color: #ef4c27;
 }
 
@@ -16,15 +18,20 @@
 }
 
 .menu__navegacion {
-    width: 90%;
-    display: flex;
+    width: 100%;
+    
     justify-content: space-between;
     margin-top: 10px;
     display: none;
 }
 
+.menu__navegacion--enlaces{
+    display: flex;
+}
+
 .menu__navegacion--bars {
     color: white;
+    font-size: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -63,7 +70,7 @@
     text-align: left;
 }
 
-.home__main__section__article a button {
+.home__main__section__article button {
    text-transform: uppercase;
     padding: 10px;
     font-size: 0.7rem;
@@ -115,3 +122,33 @@
     background: #f7f7f7;
     margin-top: 10px; 
 }
+
+@media (min-width: 481px){
+
+    /* Header */
+   .menu__navegacion--bars {
+       display: none;
+   }
+   
+   .menu__navegacion{
+    display: block;
+   }
+
+   /* Main */
+
+   .home__main__section__article--aside--tutorial{
+    width: 50%;
+   }
+
+   .home__main__section__article--aside--publicidad{
+    width: 50%;
+   }
+   
+.home__main__contenedor--aside{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+   }

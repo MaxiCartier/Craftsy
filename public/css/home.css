@@ -1,0 +1,117 @@
+/* Header */
+.home__header {
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #ef4c27;
+}
+
+.home__header--logo {
+    display: flex;
+}
+
+.home__header--logo img {
+    height: 40px;
+    margin: 10px;
+}
+
+.menu__navegacion {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    display: none;
+}
+
+.menu__navegacion--bars {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+/* Main */
+
+.home__main {
+    margin: 10px;
+}
+
+.home__main__section {
+    margin-top: 20px;
+    position: relative;
+}
+
+.home__main__section__article {
+    background-color: white;
+    padding: 10px;
+}
+
+.home__main__section__article img {
+    width: 100%;
+}
+
+.home__main__section__article h3 {
+    margin: 10px 0;
+    font-size: 1rem;
+}
+
+.home__main__section__article p {
+    margin: 10px 0;
+    font-size: 0.8rem;
+    text-align: left;
+}
+
+.home__main__section__article a button {
+   text-transform: uppercase;
+    padding: 10px;
+    font-size: 0.7rem;
+    background: #ef4c27;
+    border: none;
+    color: white;
+}
+
+/* Aside */
+
+.home__main__section__article--aside--tutorial h2{
+    background-color: white;
+    border: 1px solid mediumaquamarine;
+    font-size: 1.3rem;
+    margin: 10px 0;
+    padding: 10px;
+}
+
+.home__main__section__article--aside--tutorial aside{
+    background-color: white;
+    border: 1px solid mediumaquamarine;
+    padding: 5px;
+    display: flex;
+}
+
+.home__main__section__article--aside--publicidad h2{
+    background-color: white;
+    border: 1px solid mediumaquamarine;
+    font-size: 1.3rem;
+    margin: 10px 0;
+    padding: 10px;
+}
+
+.home__main__section__article--aside--publicidad .imagen{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border: 1px solid mediumaquamarine;
+    padding: 10px;
+}
+
+/* Footer */
+
+.home__footer{
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    background: #f7f7f7;
+    margin-top: 10px; 
+}

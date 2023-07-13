@@ -1,9 +1,9 @@
 /* Header */
 .home__header {
-    width: 95%;
+    width: 94%;
     margin: 10px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     background-color: #ef4c27;
 }
@@ -19,9 +19,8 @@
 
 .menu__navegacion {
     width: 100%;
-    
-    justify-content: space-between;
     margin-top: 10px;
+    padding: 10px;
     display: none;
 }
 
@@ -126,18 +125,20 @@
 @media (min-width: 481px){
 
     /* Header */
+
    .menu__navegacion--bars {
        display: none;
    }
    
    .menu__navegacion{
-    display: block;
+    display: flex;
+    justify-content: space-between;
    }
 
    /* Main */
 
    .home__main__section__article--aside--tutorial{
-    width: 50%;
+    width: 49%;
    }
 
    .home__main__section__article--aside--publicidad{
@@ -152,3 +153,25 @@
 }
 
    }
+
+   @media (min-width: 769px) {
+
+    /* Main */
+
+    .home__main{
+        display: flex;
+    }
+    .home__main__section{
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+.home__main__section__article{
+    width: 49%;
+}
+.home__main__contenedor--aside{
+    flex-direction: column;
+    width: 25%;
+    
+   }
+}
